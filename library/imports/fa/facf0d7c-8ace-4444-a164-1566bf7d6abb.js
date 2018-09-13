@@ -1,5 +1,11 @@
+"use strict";
+cc._RF.push(module, 'facf018is5ERKFkFWa/fWq7', 'game-scene');
+// src/scene/game-scene.js
+
+"use strict";
+
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: {
         // foo: {
@@ -25,8 +31,10 @@ cc.Class({
         this.platform_generator.initPlatforms([this.platform_default_0, this.platform_default_1]);
     }
 
-});
-// called every frame, uncomment this function to activate update callback
-// update: function (dt) {
+    // called every frame, uncomment this function to activate update callback
+    // update: function (dt) {
 
-// },
+    // },
+});
+
+cc._RF.pop();

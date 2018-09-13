@@ -1,5 +1,11 @@
+"use strict";
+cc._RF.push(module, 'a5b85M16A9GbZoyKP97bDi4', 'platform-generator');
+// src/role/platform-generator.js
+
+"use strict";
+
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: {
         platform_list: [],
@@ -7,9 +13,9 @@ cc.Class({
         platform_prafab: [cc.Prefab],
         platform_layer: cc.Node,
         gold_group_list: [cc.Prefab],
-        maxMoveSpeed: 8 },
+        maxMoveSpeed: 8 //平台最大移动速度
+    },
 
-    //平台最大移动速度
     initPlatforms: function initPlatforms(list) {
         this.platform_list = list;
 
@@ -111,3 +117,5 @@ cc.Class({
         }
     }
 });
+
+cc._RF.pop();

@@ -47,7 +47,8 @@
     "_globalZOrder": 0,
     "_tag": -1,
     "_opacityModifyRGB": false,
-    "_id": "3bb62552-fe87-4801-8618-aca86e194633"
+    "_id": "3bb62552-fe87-4801-8618-aca86e194633",
+    "autoReleaseAssets": false
   },
   {
     "__type__": "cc.Node",

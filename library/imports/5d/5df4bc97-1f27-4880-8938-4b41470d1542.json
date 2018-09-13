@@ -2,7 +2,7 @@
   "__type__": "cc.SpriteAtlas",
   "_name": "panda.plist",
   "_objFlags": 0,
-  "_rawFiles": null,
+  "_native": "",
   "_spriteFrames": {
     "panda_jump_01": {
       "__uuid__": "9b6cf2de-7bfb-4494-b340-f73c11799190"

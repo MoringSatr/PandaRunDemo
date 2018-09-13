@@ -1,5 +1,11 @@
+"use strict";
+cc._RF.push(module, 'ad41c/xVbdPkbW3QvzF211v', 'background');
+// src/layer/background.js
+
+"use strict";
+
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: {
         near_bg: [cc.Node],
@@ -52,3 +58,5 @@ cc.Class({
         }
     }
 });
+
+cc._RF.pop();

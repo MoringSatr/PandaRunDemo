@@ -1,6 +1,11 @@
+"use strict";
+cc._RF.push(module, 'd5100S4m6ROAJ4FE6j+WaBp', 'panda-control');
+// src/role/panda-control.js
+
+"use strict";
 
 cc.Class({
-    "extends": cc.Component,
+    extends: cc.Component,
 
     properties: {
         speed: cc.v2(0, 0),
@@ -190,7 +195,7 @@ cc.Class({
             }
 
         if (this.direction === 0) {
-            //停下的时候，计算摩擦力
+            //停下的时候，计算摩擦力 
             if (this.speed.x > 0) {
                 this.speed.x -= this.drag * dt;
                 if (this.speed.x <= 0) this.speed.x = 0;
@@ -222,3 +227,5 @@ cc.Class({
         this.node.y += this.speed.y * dt;
     }
 });
+
+cc._RF.pop();

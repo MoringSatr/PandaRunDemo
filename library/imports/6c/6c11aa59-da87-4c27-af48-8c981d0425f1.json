@@ -2,7 +2,7 @@
   "__type__": "cc.SpriteAtlas",
   "_name": "platform.plist",
   "_objFlags": 0,
-  "_rawFiles": null,
+  "_native": "",
   "_spriteFrames": {
     "platform_0": {
       "__uuid__": "c4c0a48c-58bb-44ba-ae80-dbf815475fea"
